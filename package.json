@@ -1,0 +1,32 @@
+{
+  "name": "figchalk",
+  "version": "1.0.0",
+  "description": "Node package combining figlet and chalk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riuandg5/figchalk.git"
+  },
+  "author": "REU",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "figlet": "^1.2.0",
+    "yargs": "^11.0.0"
+  },
+  "bin": {
+    "figchalk": "./index.js"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "figchalk",
+    "figlet",
+    "chalk",
+    "coloured",
+    "terminal",
+    "cli"
+  ]
+}
